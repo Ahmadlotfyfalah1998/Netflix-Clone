@@ -36,3 +36,25 @@
     transform: rotate(360deg);
   }
 }
+  
+
+
+
+
+
+
+#card{
+margin: 30px auto;
+background-color: rgb(138, 209, 209);
+
+
+
+
+}
+#img{
+height: 50px;
+width: 50px;
+margin: 20px auto;
+
+
+}
