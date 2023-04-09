@@ -12,7 +12,7 @@ export default function MovieList(props) {
                         <>
                             <SingleMovie movie={movie} />
 
-
+                            
 
                         </>
                     )
