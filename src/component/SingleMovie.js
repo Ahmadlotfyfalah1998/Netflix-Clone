@@ -8,12 +8,12 @@ export default function SingleMovie(props) {
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
   
-
+const src=`https://image.tmdb.org/t/p/w500${props.movie.poster_path}`
     return (<>
 
 
         <Card style={{ width: '18rem' }}   id='card'>
-            <Card.Img variant="top" src={props.movie.poster_path} id='img'/>
+            <Card.Img variant="top" src={src} id='img'/>
             <Card.Body>
                 <Card.Title>{props.movie.title}</Card.Title>
                 <Card.Text>

@@ -5,7 +5,7 @@ import Modal from 'react-bootstrap/Modal';
 
 
 export default function ModalMovies(props){
-
+  const src=`https://image.tmdb.org/t/p/w500${props.movie.poster_path}`
 return (
     <>
     
@@ -13,7 +13,7 @@ return (
         <Modal.Header closeButton>
           <Modal.Title>{props.movie.title}</Modal.Title>
         </Modal.Header>
-        <img src={props.movie.poster_path}   alt={props.movie.title}/>
+        <img src={src}   alt={props.movie.title}/>
         <Modal.Body><form >
             <input type='text'/>
             <button>send</button>
