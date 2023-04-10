@@ -2,8 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import { Routes, Route } from "react-router-dom";
 import Home from './component/Home';
-
-
+import NavBar from './component/NavBar';
+import FavList from './component/FavList';
 
 
 
@@ -14,7 +14,7 @@ import Home from './component/Home';
 function App() {
   return (
     <>
-    
+    <NavBar  />
     
     
     
@@ -22,7 +22,7 @@ function App() {
     
     <Routes>
   <Route path="/" element={<Home />} />
- 
+  <Route path="/fav" element={< FavList/>} />
 </Routes>
     
     </>
