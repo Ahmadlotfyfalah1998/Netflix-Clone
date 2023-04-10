@@ -14,17 +14,17 @@ import FavList from './component/FavList';
 function App() {
   return (
     <>
-    <NavBar  />
-    
-    
-    
-    
-    
-    <Routes>
-  <Route path="/" element={<Home />} />
-  <Route path="/fav" element={< FavList/>} />
-</Routes>
-    
+      <NavBar />
+
+
+
+
+
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/fav" element={< FavList />} />
+      </Routes>
+
     </>
   );
 }
