@@ -23,7 +23,7 @@ export default function SingleMovie(props) {
                 <Button variant="primary" onClick={handleShow}>Show details</Button>
             </Card.Body>
         </Card >
-        <ModalMovies show={show} handleClose={handleClose} movie={props.movie} commentHandler={props.commentHandler} />
+        <ModalMovies show={show} handleClose={handleClose} moviess={props.movie} commentHandler={props.commentHandler} />
 
 
 
