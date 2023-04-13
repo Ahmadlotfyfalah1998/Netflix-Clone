@@ -113,13 +113,13 @@ export default function FavList() {
                                             <Form.Control ref={commentRef} type="text" placeholder="enter your comment" />
                                             <Form.Text className="text-muted">
 
+                                            <Button variant="primary" type="submit" >
+                                            update
+                                        </Button>
+
                                             </Form.Text>
                                         </Form.Group>
 
-
-                                        <Button variant="primary" type="submit" >
-                                            update
-                                        </Button>
 
 
                                        
